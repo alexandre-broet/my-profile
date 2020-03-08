@@ -1,0 +1,71 @@
+/*colors and fonts */
+body {
+	background-color: #FBF3E9;
+	color: #DBDBDB
+	letter-spacing: 1px;
+	text-align: center;
+}
+h1{
+	color: #7C0D0D;
+	text-align: center;
+	font-family: American Typewriter, serif;
+	font-weight: bold;
+}
+h2{
+	font-family: American Typewriter, serif;
+	color: #7C0D0D
+}
+p{
+	font-family: Arial, serif;
+}
+
+/* Custom design with class*/
+.container {
+	width: 1000px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: #FFFFFF;
+	padding: 15px 20px;
+	border-radius: 0px;
+	font-weight: 500px;
+	margin: 20px 0px;
+	text-align: center;
+	box-shadow: 0px 10px 30px #770D0D;
+	margin-left: auto;
+  	margin-right: auto; 	
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #0E0F5A;
+	color: white;
+	padding: 7px 12px;
+	border-radius: 5px;
+}
+.btn-blue: hover {
+	background-color: #870C0C;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline-block;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 40px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i: hover{
+	color: black;
+}
+
+/*design adjustments */
+#introduction p {
+	margin-bottom: 30px;
+}
+
